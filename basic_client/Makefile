@@ -3,7 +3,7 @@ CC = gcc
 #LDFLAGS = -lcriterion
 CFLAGS = -Wall -Wextra -Werror -std=c99 -pedantic
 
-VPATH = src
+#VPATH = src
 BIN = main
 OBJS = main.o
 all: $(OBJS)
